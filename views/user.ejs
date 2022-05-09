@@ -40,7 +40,9 @@
           }
       </style>
       <script>
-          localStorage.setItem('pk', '<%= user.id  %>');
+            localStorage.setItem('pk', '<%= user.id  %>');
+            localStorage.setItem('slug', '<%= user.slug  %>');
+          
       </script>
       <h1>Hi, <%= user.username  %></h1>
       <div class="d-flex w-100 mx-auto">
